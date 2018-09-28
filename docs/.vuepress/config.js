@@ -12,13 +12,14 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    nav: [{ text: "Home", link: "/" }],
-    sidebar: [
-      {
-        title: "算法",
-        collapsable: false,
-        children: ["/", "/array/"]
-      }
-    ]
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "leetcode", link: "/leetcode/" }
+    ],
+    sidebar: {
+      "/leetcode/": [["双指针", "双指针"]],
+      "/": [""]
+    },
+    lastUpdated: "Last Updated"
   }
 };
