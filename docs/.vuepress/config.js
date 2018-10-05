@@ -14,10 +14,12 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "leetcode", link: "/leetcode/" }
+      { text: "Leetcode", link: "/leetcode/" },
+      { text: "Common", link: "/common/" }
     ],
     sidebar: {
       "/leetcode/": [["双指针", "双指针"]],
+      "/common/": [["Bash", "Bash"]],
       "/": [""]
     },
     lastUpdated: "Last Updated"
